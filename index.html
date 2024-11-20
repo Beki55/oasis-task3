@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>Temperature Converter</h1>
+        <p>
+          Convert temperatures between Celsius, Fahrenheit, and Kelvin with
+          ease!
+        </p>
+      </header>
+
+      <main>
+        <div class="converter">
+          <input
+            type="text"
+            id="temperatureInput"
+            placeholder="Enter temperature"
+          />
+          <select id="unitSelector">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
+          </select>
+          <button id="convertBtn">Convert</button>
+        </div>
+
+        <div class="result">
+          <p id="resultDisplay">
+            Enter a value and select a unit to see the result here.
+          </p>
+        </div>
+      </main>
+
+      <footer>
+        <p>
+          © 2024 Temperature Converter | Built with HTML, CSS, and JavaScript
+        </p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
